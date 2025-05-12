@@ -77,17 +77,6 @@ This is a fully responsive **Smart Water Meter Web Portal** designed for owners 
 - **/php**: Handles backend logic for user authentication, data retrieval, and water meter management.
 - **/sql**: Contains SQL scripts for setting up the database.
 
-## How to Contribute
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions can include:
-- Bug fixes
-- Enhancements to existing features
-- Adding new features (e.g., export to CSV, data analytics)
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Contact Author
 
 **Joash Austin Pillay**  
