@@ -1,0 +1,102 @@
+/* Contact Page Styles */
+.contact-intro {
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+    width: 100%;
+    margin: 0 auto;
+    height: 44vh;
+    margin-bottom: 15px;
+}
+
+.contain {
+    width: 94%;
+    margin: 0 auto;
+}
+
+
+
+.contact-intro h2 {
+    font-size: 2.5em;
+    color: #01579b;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contact-intro p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+.contact-form-section {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #01579b;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #0288d1;
+    box-shadow: 0 0 5px rgba(2, 136, 209, 0.3);
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: 105vh;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #0288d1;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #01579b;
+    transform: translateY(-2px);
+}
+
+.cta-button:active {
+    scale: 0.98;
+}
